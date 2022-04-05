@@ -1,3 +1,3 @@
-module github.com/Ven3369/utils
+module utils
 
 go 1.17
