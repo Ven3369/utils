@@ -15,7 +15,7 @@ var (
 	ClogItem *Clog
 )
 
-var LogInstance = func() *Clog {
+var Instance = func() *Clog {
 	if ClogItem == nil {
 		ClogItem = &Clog{}
 		return ClogItem
