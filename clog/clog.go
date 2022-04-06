@@ -1,4 +1,4 @@
-package utils
+package clog
 
 import (
 	"bytes"
@@ -15,7 +15,7 @@ var (
 	ClogItem *Clog
 )
 
-var ClogGet = func() *Clog {
+var LogInstance = func() *Clog {
 	if ClogItem == nil {
 		ClogItem = &Clog{}
 		return ClogItem
