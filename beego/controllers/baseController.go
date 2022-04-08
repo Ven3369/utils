@@ -75,7 +75,7 @@ func (that *BaseController) GetToken() string {
 //@参数：[data]{interface{}类型传入返回客户端的数据体,[status]{int类型 为状态码}
 //@返回值：无
 //@时间：2018-07-08
-func (that *BaseController) ajaxData(data interface{}, status int) {
+func (that *BaseController) AjaxData(data interface{}, status int) {
 	out := make(map[string]interface{})
 	out["status"] = status
 	out["data"] = data
